@@ -1,6 +1,7 @@
 # Devrev-CodeHermit
-Here is the Frontend in Reactjs, Tailwind CSS, and Backend in Django. This is an extension to my 3rd sem minor project.
-
+Here is the Frontend in HTML, JavaScript, Tailwind CSS, and Backend in Django. This is an extension to my 3rd sem minor project.
+Requirement for this project:- 
+1. Install Django
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This repo was originally developed to make a product regarding the following but it halted.
