@@ -1,4 +1,9 @@
 # Devrev-CodeHermit
+Here is the Frontend in Reactjs, Tailwind CSS, and Backend in Django. This is an extension to my 3rd sem minor project.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This repo was originally developed to make a product regarding the following but it halted.
 Crack the Multi-Channel Voice of Customer (VoC) data conundrum using LLMs.
 In today's digital landscape, customer feedback and sentiments are dispersed across various channels such as LinkedIn, WhatsApp, Twitter, Email, App Reviews, Instagram, Facebook, and more. Collating this Voice of Customer (VoC) data is pivotal for organizations to understand customer needs, pain points, and preferences.
 
