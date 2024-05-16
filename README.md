@@ -1,7 +1,70 @@
 # Devrev-CodeHermit
-Here is the Frontend in HTML, JavaScript, Tailwind CSS, and Backend in Django. This is an extension to my 3rd sem minor project.
-Requirement for this project:- 
-1. Install Django
+# Image Denoising Website
+
+This is a Django-based web application for image denoising. It provides a user interface for uploading images and applying denoising algorithms to remove noise and enhance the image quality.
+
+## Prerequisites
+
+- Python 3.x
+- Django
+- Virtual Environment (recommended)
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/rameshgitter/Devrev-CodeHermit/tree/main/image_denoising_website
+```
+2. Navigate to the project directory:
+``` bash
+cd image-denoising-website
+```
+3. Create a virtual environment (optional but recommended):
+``` bash
+python -m venv env
+source env/bin/activate  # On Windows, use `env\Scripts\activate`
+```
+4. Install the required dependencies:
+``` bash
+pip install -r requirements.txt
+```
+But how would you know what are requirements.txt?
+``` bash
+pip install pipreqs
+pipreqs
+```
+5. Apply database migrations:
+``` bash
+python manage.py migrate
+```
+6. Start the development server:
+``` bash
+python manage.py runserver
+```
+The application should now be running at http://localhost:8000/.
+
+## Usage
+1. Visit http://localhost:8000/ in your web browser.
+2. Upload an image file for denoising.
+3. Select the desired denoising algorithm and options.
+4. Click the "Denoise" button to process the image.
+5. View the denoised image and download it if needed.
+## Contributing
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch: git checkout -b my-new-feature
+3. Make your changes and commit them: git commit -am 'Add some feature'
+4. Push to the branch: git push origin my-new-feature
+5. Submit a pull request
+
+## License
+This project is licensed under the MIT License.
+
+##  Acknowledgments
+1. Django - The web framework used
+2. example-denoising-library - Denoising algorithms used in this project
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This repo was originally developed to make a product regarding the following but it halted.
