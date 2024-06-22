@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Image Processing</h1>
+            <nav>
+                <ul class="flex">
+                    <li><a href="{% url 'image_processing:home' %}" class="mr-4">Home</a></li>
+                    <li><a href="{% url 'image_processing:about' %}">About</a></li>
+                    <li><a href="{% url 'image_processing:index' %}" class="ml-4">Image Processing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-8">
+        <section class="bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-4xl font-bold mb-4 text-blue-600">Welcome to Image Processing</h2>
+            <ul>
+                <li>This website is designed to provide a user-friendly interface for applying various image processing techniques to your images.</li>
+                <li>Whether you're a photographer, graphic designer, or simply interested in image manipulation, our platform offers a range of powerful tools to enhance and transform your images.</li>
+                <li>With our intuitive web interface, you can easily upload your images, select the desired filter or processing technique, and adjust the parameters to achieve the desired effect.</li>
+                <li>Our website supports a variety of popular image formats, ensuring compatibility with a wide range of devices and software.</li>
+            </ul>
+        </section>
+        <section class="bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-4xl font-bold mb-4 text-blue-600">Introduction to Image Processing</h2>
+            <ul>
+                <li>Image processing is a method to perform operations on an image to enhance it or extract information from it.</li>
+                <li>It involves manipulating an image to improve its quality or extract useful information.</li>
+            </ul>
+        </section>
+        
+        <section class="bg-white rounded-lg shadow-lg p-6 mt-8">
+            <h2 class="text-4xl font-bold mb-4 text-blue-600">Salt and Pepper Noise</h2>
+            <ul>
+                <li>Salt and pepper noise is a type of noise that appears as random, isolated pixels in an image.</li>
+                <li>It can be caused by errors in data transmission or storage, resulting in white and black pixels scattered throughout the image.</li>
+            </ul>
+        </section>
+        
+        <section class="bg-white rounded-lg shadow-lg p-6 mt-8">
+            <h2 class="text-4xl font-bold mb-4 text-blue-600">Effects of Salt and Pepper Noise</h2>
+            <ul>
+                <li>Salt and pepper noise can degrade image quality and affect the accuracy of image analysis algorithms.</li>
+                <li>It can obscure important details in the image and make it difficult to interpret.</li>
+            </ul>
+        </section>
+        
+        <section class="bg-white rounded-lg shadow-lg p-6 mt-8">
+            <h2 class="text-4xl font-bold mb-4 text-blue-600">Methods to Remove Salt and Pepper Noise</h2>
+            <ul>
+                <li>Median filtering is a common technique used to remove salt and pepper noise.</li>
+                <li>Adaptive filters can also be effective in reducing the impact of salt and pepper noise on an image.</li>
+                <li>Thresholding methods can help in identifying and removing the noisy pixels.</li>
+            </ul>
+        </section>
+        
+        <section class="bg-white rounded-lg shadow-lg p-6 mt-8">
+            <h2 class="text-4xl font-bold mb-4 text-blue-600">Importance of Addressing Salt and Pepper Noise</h2>
+            <ul>
+                <li>Removing salt and pepper noise is crucial for improving the quality of images for various applications.</li>
+                <li>It helps in ensuring accurate analysis and interpretation of images in fields like medical imaging, surveillance, and quality control.</li>
+            </ul>
+        </section>
+        
+        <section class="bg-white rounded-lg shadow-lg p-6 mt-8">
+            <h2 class="text-4xl font-bold mb-4 text-blue-600">Conclusion</h2>
+            <ul>
+                <li>Salt and pepper noise is a common issue in image processing that can significantly impact the quality and usability of images.</li>
+                <li>Employing appropriate noise reduction techniques is essential to enhance image quality and ensure accurate analysis and interpretation.</li>
+            </ul>
+        </section>
+        
+    </main>
+    <img src="image_processing/templates/sample.png" alt="">
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 2023 Image Processing Website</p>
+        </div>
+    </footer>
+</body>
+</html>
